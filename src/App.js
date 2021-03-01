@@ -20,9 +20,7 @@ class App extends Component {
         <h1>
           <pre>TwitterMessage</pre>
         </h1>
-        <TwitterMessage maxChars={280} />
-
-
+        <TwitterMessage maxChars={280} test={"Hello"} />
 
       </div>
     )
@@ -30,3 +28,6 @@ class App extends Component {
 }
 
 export default App
+
+//props are passed to component
+//state are the variables inside the component
